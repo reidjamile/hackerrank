@@ -2,13 +2,14 @@
 
 body {
     margin:0;
+    font-family: 'Uncial Antiqua', cursive;
 }
 
 nav {
-    background-color: #2e3740;
+    background-color: red;
     width:60px;
     height:100%;
-    color:#fff;
+    color: blue;
     position: fixed;
     z-index: 99;
     top:0;
@@ -19,31 +20,31 @@ nav {
     list-style-type: none;
     padding-inline-start: 0;
     text-align: center;
-    
+
 }
 
 #logo {
-    background-color: #252932;
+    background-color: green;
 }
 
 #search-bar {
     padding: 6px;
-    border:1px solid #d8dce5;
+    border:1px solid grey;
     border-radius: 40px;
     margin: 6px 6px 0 0;
-    
+
 }
 
 #search-bar2 {
     padding: 6px;
-    border:0px solid #d8dce5;
+    border:0px solid grey;
     border-radius: 0px;
-    
+
 }
 
 #search-input2 {
     padding:12px 92px 12px 12px;
-    
+
 }
 
 .mitems {
@@ -51,8 +52,8 @@ nav {
 }
 
 main {
-    background-color: #fff;
-    
+    background-color: grey;
+
 }
 
 #top1 {
@@ -68,13 +69,13 @@ main {
 }
 
 #top3 {
-    background-color: #f8f9fb;
+    background-color: lightgray;
 }
 
 #search-input {
     border:none;
     width:300px;
-    
+
 }
 
 #search-btn {
@@ -149,7 +150,7 @@ hr {
 }
 
 .top-stats {
-    
+
     border: 1px solid #c3c7d0;
     display: inline-flex;
     padding: 6px 30px;
@@ -169,7 +170,7 @@ hr {
 #top-toggle {
     margin-top:60px;
     margin-left:30px;
-    
+
 }
 
 .active-toggle {
@@ -395,7 +396,7 @@ hr {
 
 .lr-icons2 {
     position: absolute;
-    margin:24px 0 0 330px;
+    margin:24wpx 0 0 330px;
     color: #979faf;
 }
 
